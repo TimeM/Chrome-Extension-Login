@@ -1,0 +1,19 @@
+{
+  "name": "TimeM",
+  "description": "Tracks time in order to make people more efficient",
+  "version": "0.7",
+  "permissions": [
+    "cookies",
+    "tabs",
+    "history"
+  ],
+  "background": {
+    "scripts": ["mypopup.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "TimeM is at work",
+    "default_popup": "mypopup.html"
+  },
+  "manifest_version": 2
+}
